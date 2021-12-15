@@ -1,0 +1,228 @@
+:root {
+  --primary-color: #2196f3;
+  --primary-text-color: #212121;
+  --accent-text-color: #ffffff;
+  --secondary-text-color: #757575;
+  --footer-bg-color: #2f303a;
+  --section-bg-color: #f5f4fa;
+  --footer-link-hover-color: #75757580;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* Header */
+.header-link,
+.header-tel,
+.header-mail {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.header-link {
+  color: inherit;
+}
+
+.header-link.current {
+  color: var(--primary-color);
+}
+
+.header-tel,
+.header-mail {
+  color: var(--secondary-text-color);
+}
+
+.header-link:hover,
+.header-link:focus,
+.header-tel:hover,
+.header-tel:focus,
+.header-mail:hover,
+.header-mail:focus {
+  color: var(--primary-color);
+}
+
+/* Logo */
+.header-logo,
+.footer-logo {
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--primary-color);
+}
+.primary-logo {
+  color: var(--primary-text-color);
+}
+.secondary-logo {
+  color: var(--accent-text-color);
+}
+
+/* Footer */
+.footer {
+  background-color: var(--footer-bg-color);
+  padding: 20px;
+}
+
+.footer-list {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+.footer-adr,
+.footer-mail,
+.footer-tel {
+  color: var(--secondary-text-color);
+}
+
+.footer-adr:hover,
+.footer-mail:hover,
+.footer-tel:hover,
+.footer-adr:focus,
+.footer-mail:focus,
+.footer-tel:focus {
+  color: var(--footer-link-hover-color);
+}
+
+/* Studio Page */
+/* Hero section */
+.hero {
+  background-color: var(--footer-bg-color);
+}
+.main-title {
+  color: var(--accent-text-color);
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.filters-list-item > button {
+  cursor: pointer;
+}
+
+.hero-btn {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--primary-color);
+  color: var(--accent-text-color);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--secondary-text-color);
+}
+
+/* Features section*/
+.features-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.features-text {
+  color: var(--secondary-text-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+/* Team section */
+.team {
+  background-color: var(--section-bg-color);
+}
+
+.team-item-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-item-text {
+  color: var(--secondary-text-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Portfolio Page*/
+.filters-btn {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.filters-btn:hover,
+.filters-btn:focus {
+  background-color: var(--primary-color);
+}
+
+.filters-btn.current {
+  color: var(--accent-text-color);
+  background-color: var(--primary-color);
+}
+
+.portfolio-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-align: left;
+}
+
+.portfolio-text {
+  color: var(--secondary-text-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
