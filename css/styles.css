@@ -182,10 +182,7 @@ body {
 }
 
 .filters-btn:hover,
-.filters-btn:focus {
-  background-color: var(--primary-color);
-}
-
+.filters-btn:focus,
 .filters-btn.current {
   color: var(--accent-text-color);
   background-color: var(--primary-color);
